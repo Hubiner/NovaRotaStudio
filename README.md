@@ -11,10 +11,7 @@ O objetivo deste site é demonstrar a construção de uma interface instituciona
 - hierarquia visual forte;
 - leitura clara em desktop, tablet e mobile;
 - microinterações sutis;
-- front-end estático fácil de publicar na Vercel;
-- conteúdo neutro, sem nomes de pessoas.
-
-Todo o conteúdo é conceitual e foi ajustado para apresentação pública em portfólio.
+- front-end estático;
 
 ## Funcionalidades
 
@@ -24,8 +21,7 @@ Todo o conteúdo é conceitual e foi ajustado para apresentação pública em po
 - Seções de cases, métricas, serviços, método, depoimentos e contato.
 - Contadores animados com respeito a `prefers-reduced-motion`.
 - Carrossel de depoimentos com suporte a teclado.
-- Formulário demonstrativo com validação em tempo real, máscara de telefone e campos condicionais.
-- Estrutura estática pronta para deploy em Vercel.
+- Estrutura estática pronta para deploy.
 
 ## Tecnologias utilizadas
 
@@ -95,35 +91,10 @@ node tests/main.test.mjs
 
 Este projeto não possui etapa de build. Como é um site estático, a publicação em produção pode ser feita diretamente a partir dos arquivos versionados.
 
-## Deploy na Vercel
-
-Como o projeto é estático, o deploy na Vercel é direto:
-
-1. Importe o repositório na Vercel.
-2. Mantenha a raiz do projeto como diretório de publicação.
-3. Não é necessário comando de build.
-4. Publique o projeto.
-
-O arquivo `vercel.json` foi incluído para manter o deploy consistente e aplicar cabeçalhos básicos.
-
-## Organização e decisões do front-end
-
-- O layout original foi preservado como landing page de seção única.
-- O acabamento visual foi refinado sem descaracterizar a identidade já existente.
-- Os depoimentos e campos de contato usam nomes genéricos, sem pessoas identificáveis.
-- O JavaScript foi migrado para módulo ES para melhorar organização e testabilidade.
-
-## Melhorias futuras
-
-- Adicionar imagens reais ou capturas finais do site no README.
-- Integrar o formulário com um serviço real de envio ou CRM.
-- Incluir auditoria automatizada de acessibilidade e performance.
-- Adicionar favicon e Open Graph image personalizados.
-
 ## Autor / créditos
 
-Projeto preparado para apresentação pública de portfólio. Caso queira expor autoria, prefira identificar apenas a marca, estúdio ou empresa, sem inserir nomes pessoais no conteúdo da interface.
+Projeto preparado para apresentação pública de portfólio.
 
 ## Licença
 
-Defina a licença conforme a estratégia do repositório público. Se quiser uma base simples, `MIT` costuma ser suficiente para projetos de portfólio.
+~~
